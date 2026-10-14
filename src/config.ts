@@ -39,7 +39,7 @@
 const bestFriendName: string = "Kutty Maluu";
 const yourName: string = "Your Bestie";
 // Birthday: December 30, 2025 → year 2025, month 11 (Dec), day 30
-const birthday: Date = new Date(2025, 11, 30, 0, 0, 0);
+const birthday: Date = new Date(2026, 11, 30, 0, 0, 0);
 
 // ──────────────  MAIN GREETING  ──────────────
 
@@ -91,166 +91,6 @@ const letterSections: LetterSection[] = [
       `Thank you for believing in me when I forgot how to believe in myself. Thank you for reminding me of my worth when the world made me feel small. Thank you for being my mirror, reflecting back a version of myself that I sometimes can't see on my own.`,
       `I know I don't say it enough, so let me say it now: I am thankful for you. Not just today, not just on your birthday, but every single breath of every single day. You are one of the best things that has ever happened to me, and I will never stop being grateful.`,
     ],
-  },
-  {
-    id: "wishes-for-you",
-    title: "Things I Wish for You",
-    subtitle: "Every wish I've whispered to the stars",
-    paragraphs: [
-      `I wish you a life so beautiful it makes your heart ache. I wish you mornings that start with sunshine and evenings that end with peace. I wish you a career that lights you up and people who see your brilliance. I wish you adventures that become stories and stories that become legends.`,
-      `I wish you love — the real kind, the kind that's patient and kind and honest. The kind that doesn't make you question, the kind that holds you gently and lets you fly freely. I wish you someone who looks at you the way I know you deserve to be looked at: like you hung every star in the sky.`,
-      `I wish you health, strength, and resilience. I wish you the courage to chase your dreams even when they scare you. I wish you the wisdom to know your limits and the bravery to push past them anyway. I wish you the freedom to rest when you need to and the fire to rise when you're ready.`,
-      `But most of all, ${bestFriendName}, I wish you happiness. Not the loud, showy kind — the quiet, deep, content kind. The kind that lives in your bones, the kind that doesn't depend on circumstances, the kind that comes from knowing who you are and being at peace with it. You deserve that kind of happiness. You deserve all of it.`,
-    ],
-  },
-  {
-    id: "universe",
-    title: "You Deserve the Whole Universe",
-    subtitle: "And I'd give it to you if I could",
-    paragraphs: [
-      `Here's the thing about you, ${bestFriendName}: you give so much to everyone around you that sometimes I worry you forget to save something for yourself. You pour love into people like it's an infinite resource, and maybe for you it is — but you deserve to receive just as much as you give.`,
-      `If I could, I'd hand you the universe on a silver platter. I'd wrap it in ribbon, add a little card that says "For ${bestFriendName}, because you deserve everything," and watch your eyes light up the way they do when something wonderful happens. I'd give you every star, every sunset, every wish ever made on a shooting star.`,
-      `But since I can't do that, I'll do the next best thing: I'll be your person. I'll be the one who reminds you of your worth when you forget. I'll be the one who celebrates your wins like they're my own (because they feel like they are). I'll be the one who holds space for your sadness, your fears, your doubts — and loves you through every single one of them.`,
-      `You deserve the whole universe, my love. But until I figure out how to get it for you, I hope my love is enough. Because it's all of it — every piece, every ounce, every beat of my heart — and it's yours, always.`,
-    ],
-  },
-  {
-    id: "never-forget",
-    title: "Things I Never Want You to Forget",
-    subtitle: "Pin this to your heart",
-    paragraphs: [
-      `I never want you to forget how much you matter. In a world that constantly tries to make us feel small, I need you to remember that your existence changes things. Your presence makes rooms warmer, days brighter, lives better. You are not invisible. You are not forgettable. You are essential.`,
-      `I never want you to forget that you are strong. You've been through things people don't know about, and you're still here, still standing, still beautiful. That's not weakness, ${bestFriendName} — that's warrior energy. That's the kind of strength that moves mountains and parts seas.`,
-      `I never want you to forget that it's okay to not be okay. You don't have to have it all together. You don't have to be the strong one all the time. You are allowed to fall apart, to cry, to rest, to say "I can't today." And when that happens, I'll be right here — no judgment, no expectations, just love.`,
-      `And I never, ever want you to forget this: you are loved. Not because of what you do, but because of who you are. Not because you earned it, but because you are worthy of it. Not conditionally, not partially, not sometimes — completely, endlessly, unconditionally. You are loved, and you always will be.`,
-    ],
-  },
-  {
-    id: "friendship-everything",
-    title: "Our Friendship Means Everything",
-    subtitle: "And I mean it — everything",
-    paragraphs: [
-      `People talk about friendship like it's a nice addition to life, a bonus feature, a side dish. But you and I both know that what we have isn't a side dish — it's the main course. It's the thing I'd choose first, the thing I'd protect with everything I have, the thing that makes all the other things worth it.`,
-      `Our friendship isn't just about the good times (though there have been so many incredible ones). It's about the 3 AM calls when the world feels heavy. It's about the "I'm here" texts that arrive at exactly the right moment. It's about the way you show up — consistently, reliably, beautifully — without ever asking for anything in return.`,
-      `Do you know how rare it is to find someone who knows all your flaws and stays anyway? Someone who has seen you at your worst and still thinks you're the best? Someone who fights for you, not with you? That's what you are to me. That's what I hope I am to you.`,
-      `I want you to know that this friendship — our friendship — is one of my life's greatest treasures. I will guard it, nurture it, and fight for it. I will choose you, today and every day after, because choosing you is the easiest and best decision I've ever made.`,
-    ],
-  },
-  {
-    id: "thousand-reasons",
-    title: "A Thousand Reasons to Smile",
-    subtitle: "Let me remind you of a few",
-    paragraphs: [
-      `When the world feels heavy and smiling feels impossible, I want you to remember this letter. Because there are a thousand reasons to smile, ${bestFriendName}, and most of them have your name written all over them.`,
-      `There's the way you laugh at your own jokes before you even finish telling them. There's the way you get excited about little things like they're big things. There's the way you text in all caps when you're happy and in heart emojis when you're soft. There's the way you love people — openly, fearlessly, with your whole chest.`,
-      `There's the future waiting for you — all the places you'll go, the people you'll meet, the things you'll achieve. There's the version of you that hasn't even been born yet, the one who's going to look back at this moment and say "I made it." There's every sunrise you haven't seen yet and every song that hasn't been your favourite yet.`,
-      `And there's me. Always me. A text away, a call away, a heart-beat away. If you ever need a reason to smile and can't find one, just remember: somewhere in this world, there's a person who thinks the sun rises and sets with you. And that person will never stop.`,
-    ],
-  },
-  {
-    id: "no-matter-what",
-    title: "No Matter What Happens",
-    subtitle: "A promise I'll never break",
-    paragraphs: [
-      `No matter what happens — in life, in love, in the messy beautiful chaos of it all — I need you to know something. I'm not going anywhere. Not today, not tomorrow, not on the hard days, not on the impossible days. I am here, and I am yours, and that is permanent.`,
-      `No matter what happens, if you fail, I'll be the one clapping the loudest because you tried. If you fall, I'll be the cushion. If you lose everything, I'll be the thing you still have. If the world turns its back on you, I'll be standing right in front of you, facing you, holding your hands, reminding you who you are.`,
-      `No matter what happens, if you need to disappear for a while and find yourself, I'll keep your spot warm. If you come back different, I'll learn the new you and love them just as much. If you never come back at all, I'll love you from wherever I am and send my heart to find you wherever you are.`,
-      `This isn't a fair-weather promise, ${bestFriendName}. This is a through-every-storm promise. This is a "no matter what" promise. And if there's one thing you take from this entire website, let it be this: you are never, ever, ever alone. Not as long as I exist.`,
-    ],
-  },
-  {
-    id: "new-chapter",
-    title: "My Wishes for Your New Chapter",
-    subtitle: "For the year ahead and always",
-    paragraphs: [
-      `A new year of your life is about to begin, and I want to send you into it with all the blessings I can gather. This is your new chapter, ${bestFriendName}, and I already know it's going to be beautiful — because you're the one writing it.`,
-      `I wish you courage. The kind that makes you say yes to things that scare you. The kind that makes you walk into rooms like you belong there (because you do). The kind that lets you be yourself, unapologetically, even when it's not the popular thing to be.`,
-      `I wish you growth. Not the painful, tearing kind — the blooming kind. The kind where you wake up one day and realize you've become someone you're proud of. The kind where old wounds have healed into wisdom and old fears have turned into fuel.`,
-      `I wish you love — for yourself most of all. I wish you the kind of self-love that sets boundaries, that says no without guilt, that treats yourself with the same tenderness you show everyone else. You give so much love to the world; this year, I want you to keep some for yourself. And I wish you adventures — big ones, small ones, unexpected ones that make you feel alive. Happy almost-birthday, my love. This is your year. Go make it extraordinary.`,
-    ],
-  },
-  {
-    id: "bad-day",
-    title: "If You Ever Have a Bad Day, Read This",
-    subtitle: "Save this for when you need it",
-    paragraphs: [
-      `Hey. If you're reading this, something's wrong. Maybe it's a small something, maybe it's a big something. Maybe you're just tired. Whatever it is, I want you to stop for a second, take a breath, and let me talk to you the way I would if I were right there beside you.`,
-      `First: it's going to be okay. Not "okay" in the toxic-positivity way that dismisses your pain. Okay in the real way — the way that means this moment doesn't get to be the end of your story. You have survived every bad day you've ever had. You are 100% at surviving bad days. This one is no different.`,
-      `Second: you are not your bad day. You are not your mistakes, your failures, your rejections, your heartbreaks. You are the person who keeps getting up, keeps trying, keeps going. That person is incredible. That person is you. Don't let a hard day convince you otherwise.`,
-      `Third: I'm here. Right now, in this moment, I am here. Even if I'm not physically next to you, my love is. Wrap yourself in it like a blanket. Let it hold you up. And when you're ready — not before, only when you're ready — reach out. I'll answer. I always will. Now get some rest, drink some water, be gentle with yourself, and remember: tomorrow is a new page. You get to write it however you want. And I'll be right here, cheering you on, loving you through every single word.`,
-    ],
-  },
-  {
-    id: "last-thing",
-    title: "One Last Thing I Need to Tell You",
-    subtitle: "The most important one",
-    paragraphs: [
-      `I've said a lot in these letters. I've told you you're loved, you're strong, you're worthy, you're beautiful, you're my favourite person in the world. I've told you I'll be here through everything. I've told you I believe in you. I've told you all the things I want you to remember.`,
-      `But there's one more thing. One last thing. The most important thing of all. And it's this: you changed my life, ${bestFriendName}. Before you, I didn't know what it felt like to have a best friend who loved me without conditions. I didn't know friendship could be this deep, this safe, this life-altering. You taught me what real friendship looks like, and you made my life infinitely better just by being in it.`,
-      `So thank you. Thank you for being my person. Thank you for every laugh, every tear, every conversation, every silence, every moment. Thank you for being exactly who you are. The world is better because you're in it. My world is better because you're in it. And I am better — kinder, braver, softer, stronger — because I know you.`,
-      `Happy advance birthday, my forever favourite person. I love you to the moon, to the stars, to the edge of the universe and back — and then a little bit more. Always and all ways. Forever your bestie ♡`,
-    ],
-  },
-];
-
-// ──────────────  FRIENDSHIP TIMELINE  ──────────────
-
-type TimelineMilestone = {
-  id: string;
-  date: string;
-  title: string;
-  paragraph: string;
-};
-
-const timelineMilestones: TimelineMilestone[] = [
-  {
-    id: "how-we-met",
-    date: "The Beginning",
-    title: "How We Met",
-    paragraph:
-      "Replace this with the story of how you first met. Was it at school? At a party? Online? Write it in detail — the first impression, the first conversation, the moment you knew this person was going to be special.",
-  },
-  {
-    id: "funniest-moment",
-    date: "The Day We Couldn't Stop Laughing",
-    title: "Our Funniest Moment",
-    paragraph:
-      "Write about the time you both laughed so hard you couldn't breathe. The inside joke that was born that day. The kind of laughter that makes your stomach hurt and your cheeks ache.",
-  },
-  {
-    id: "favourite-adventure",
-    date: "Our Greatest Adventure",
-    title: "Our Favourite Adventure",
-    paragraph:
-      "Describe the best trip, day out, or adventure you had together. Where did you go? What made it special? What memory from that day still makes you smile?",
-  },
-  {
-    id: "special-conversation",
-    date: "The Conversation That Changed Everything",
-    title: "A Special Conversation",
-    paragraph:
-      "Write about a conversation that deepened your bond. Maybe it was late at night. Maybe it was unexpected. Maybe it was the moment you realized this friendship was different from all the rest.",
-  },
-  {
-    id: "inside-jokes",
-    date: "The Birth of Our Inside Jokes",
-    title: "Our Inside Jokes",
-    paragraph:
-      "List your inside jokes here. The ones only the two of you understand. The ones that make you laugh in public and confuse everyone around you. The ones that will never stop being funny.",
-  },
-  {
-    id: "unforgettable-day",
-    date: "A Day I'll Never Forget",
-    title: "An Unforgettable Day",
-    paragraph:
-      "Write about a specific day that stands out in your memory. What happened? Why does it matter? What about that day made it unforgettable?",
-  },
-  {
-    id: "meaningful-memory",
-    date: "The Moment I Knew",
-    title: "When I Knew You Were My Forever Friend",
-    paragraph:
-      "Describe the moment you realized this friendship was for life. Maybe it was something they did for you. Maybe it was a feeling. Maybe it was a thousand small moments that added up to one big certainty.",
   },
 ];
 
@@ -541,7 +381,6 @@ export const config = {
   birthday,
   mainGreeting,
   letterSections,
-  timelineMilestones,
   envelopes,
   reasonsWhyFavourite,
   heartCards,
@@ -556,4 +395,4 @@ export const config = {
   endingScreen,
 };
 
-export type { LetterSection, TimelineMilestone, Envelope, HeartCard, QuizQuestion, StarMemory };
+export type { LetterSection, Envelope, HeartCard, QuizQuestion, StarMemory };

@@ -3,9 +3,7 @@ import { config } from '@/config';
 import HeartsLayer from '@/components/HeartsLayer';
 import OpeningScreen from '@/components/OpeningScreen';
 import Navigation from '@/components/Navigation';
-import Section, { HeartDivider } from '@/components/Section';
 import { MainGreeting, LetterSection } from '@/components/Letters';
-import FriendshipTimeline from '@/components/FriendshipTimeline';
 import Envelopes from '@/components/Envelopes';
 import Surprises from '@/components/Surprises';
 import ReasonsWhyFavourite from '@/components/ReasonsWhyFavourite';
@@ -52,7 +50,6 @@ function App() {
   const navSections = [
     { id: 'greeting', label: 'Welcome' },
     { id: 'first-letter', label: 'First Letter' },
-    { id: 'friendship-story', label: 'Our Story' },
     { id: 'open-when', label: 'Open When…' },
     { id: 'surprises', label: 'Surprises' },
     { id: 'reasons', label: 'Reasons' },
@@ -98,8 +95,6 @@ function App() {
         {config.letterSections.map((section, i) => (
           <LetterSection key={section.id} section={section} index={i} />
         ))}
-
-        <FriendshipTimeline milestones={config.timelineMilestones} />
 
         <Envelopes envelopes={config.envelopes} />
 

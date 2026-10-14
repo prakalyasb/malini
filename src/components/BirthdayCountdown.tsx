@@ -61,10 +61,10 @@ export default function BirthdayCountdown({ birthday, bestFriendName, onBurst, o
   }, [candlesOut]);
 
   const units = [
-    { label: 'Days', value: timeLeft.days },
-    { label: 'Hours', value: timeLeft.hours },
-    { label: 'Minutes', value: timeLeft.minutes },
-    { label: 'Seconds', value: timeLeft.seconds },
+    { label: 'Day', value: timeLeft.days },
+    { label: 'Hou', value: timeLeft.hours },
+    { label: 'Min', value: timeLeft.minutes },
+    { label: 'Sec', value: timeLeft.seconds },
   ];
 
   return (
